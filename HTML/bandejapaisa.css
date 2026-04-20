@@ -1,0 +1,23 @@
+ 
+        
+            body {
+                background-color: #f3f4f5;
+            }
+
+            h1 {
+                font-size: 24px;
+                font-family: Arial,sans-serif;
+                color: black;
+            }
+
+            ul {
+                column-count: 2;
+            }
+
+            p{
+                font-family: Georgia,serif;
+                font-size: 18px;
+                color: #757575;
+                
+            }
+       
