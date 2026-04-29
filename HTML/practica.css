@@ -1,0 +1,107 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:rgba(68, 233, 151, 0.349);
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: lightcyan;
+    color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+nav{
+    background-color: mediumspringgreen;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{ 
+    color: midnightblue;
+}
+
+main{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+article {
+    border-left: 4px solid  blue;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: darkslategray;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 0.9en;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+
+table, th, td {
+    border: 1px solid darkcyan;
+}
+
+th{
+    background-color: aquamarine;
+    color: black;
+}
+
+footer{
+    background-color: dodgerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.resaltado{
+    color: blue;
+}
+
+.boton{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton:hover{
+    background-color: lightskyblue;
+}
+
+#mensaje-importante{
+    text-align: center;
+    font-size: 1.2em;
+}
