@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Taller de html y css y diseño</title>
+  <link rel="stylesheet" href="taller.css">
+</head>
+
+<body>
+
+  
+
+  <h1>Plan de comidas semanal</h1>
+
+  <table>
+    <tr>
+      <th>Lunes</th>
+      <th>Martes</th>
+      <th>Miércoles</th>
+      <th>Jueves</th>
+      <th>Viernes</th>
+      <th>Sábado</th>
+      <th>Domingo</th>
+    </tr>
+    <tr>
+      <td>sushi</td>
+      <td>pollo teriyaki</td>
+      <td>kimnchi</td>
+      <td>ramen</td>
+      <td>algas rellenas</td>
+      <td>arroz chino</td>
+      <td>rambutan salteao</td>
+    </tr>
+  </table>
+
+ 
+
+  <header>
+    <h1>historia de la muralla china</h1>
+  </header>
+
+  <main>
+    <p>Aqui se contiene el como se historio la muralla china.</p>
+    <p>Como era tan importante la muralla china.</p>
+    <p>Personajes historicos de la muralla china y sus luchadores.</p>
+  </main>
+
+  <aside>
+    <p>te anunciamos ue ya puedes venir a el muso de la muralla china</p>
+    <p>Corre por tu 50% de descuento en entradas hoy¡</p>
+  </aside>
+
+  <footer>
+    <p>© 2020</p>
+  </footer>
+
+  
+
+  <div class="pregunta">
+    <h2>Punto 3: Coloreando enlaces</h2>
+
+    <p><strong>Pregunta:</strong> Si aplicamos color rojo a un &lt;aside&gt; con clase .links, ¿qué quedará en rojo?</p>
+
+    <div class="respuesta">
+      <strong>Respuesta:</strong> Todo el texto dentro del aside, incluyendo los enlaces, porque el color se hereda.
+      Sin embargo, si los enlaces tienen un color propio definido, ese estilo puede sobrescribir la herencia.
+    </div>
+  </div>
+
+  
+  <div class="pregunta">
+    <h2>Punto 5: Enlaces y CSS</h2>
+
+    <p><strong>Pregunta 1:</strong> ¿Por qué los enlaces son verdes y no rojos?</p>
+    <div class="respuesta">
+      Porque existe una regla CSS específica para los enlaces que tiene más prioridad que la herencia.
+    </div>
+
+    <p><strong>Pregunta 2:</strong> ¿Cómo hacer que los enlaces sean rojos?</p>
+    <div class="respuesta">
+      Aplicando: <code>a { color: red; }</code>
+    </div>
+
+    <p><strong>Pregunta 3:</strong> ¿Qué pasa si cambiamos &lt;ul&gt; y &lt;li&gt; por &lt;div&gt;?</p>
+    <div class="respuesta">
+      Se pierde la semántica de lista, aunque visualmente puede verse igual.
+    </div>
+
+    <p><strong>Pregunta 4:</strong> ¿Cómo rehacer el CSS sin tocar el original?</p>
+    <div class="respuesta">
+      Usando clases nuevas para reemplazar los selectores sin modificar el código base.
+    </div>
+  </div>
+
+</body>
+</html>
